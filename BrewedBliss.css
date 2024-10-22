@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body h2, body h3, body h1{
+    font-family: 'Oswald';
+}
+body p{
+    font-family: 'source serif 4';
+}
+
+.pink{
+    color:#FFC9C9;
+}
+/*HERO*/
+.Hero{
+    position: relative;
+}
+.Hero img{
+    width:100%;
+    height: auto;
+}
+.HeroText{
+    position: absolute;
+    top:15%;
+    bottom: 50%;
+    font-size: 3em;
+    left: 3em;
+    color:white
+}
+.HeroText p{
+    padding-top: 1em;
+    color:white;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+/*HEADER*/
+.CoffeeHeader a{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    text-decoration: none;
+}
+header{
+    padding-bottom: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #766555;
+}
+.visit{
+    display:flex;
+    flex-direction: column;
+}
+.visit-header{
+    margin:0 auto;
+    padding:1em 0 1em 0;
+}
+.address ,.number ,.sched{
+    padding-bottom: 2em;
+}
+/*MACHIATO*/
+.whole-machiato{
+    background-color: #D48E48;
+}
+.machiatoIMG{
+    margin-right: 7em;
+    height: 500px;
+    float: right;
+    padding: 2em;
+}
+.machiato-text{
+    color:white;
+    float:left;
+    max-width: 48%;
+    padding-left: 7em;
+ }
+/*AVOCADO*/
+.whole-avocado{
+    background-color: #717459;
+}
+.avocadoIMG{
+    margin-left: 7em;
+    height: 500px;
+    float: left;
+    padding: 2em;
+}
+
+.avocado-text{
+    color:white;
+    float:right;
+    max-width: 48%;
+    padding-right: 2.2em;
+}
+.avocadoP{
+    padding-right: 3em;
+}
+/*NAVIGATION LINKS*/
+nav ul li{
+    display: inline-block;
+}
+nav ul li:not(:last-child) {
+    padding-right: 1.5em;
+}
+.nav-links{
+    font-family: 'Oswald';
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    font-size: 2em;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-links ul li a:hover{
+    color: #FFC9C9;
+    text-decoration: none;
+}
+#order{
+    padding:.4em .5em .4em .5em;
+    border-radius: 5px;
+    background-color: #FFC9C9;
+}
+#order:hover{
+    background-color: white;
+}
+.visit h2{
+    font-size: 3em;
+}
+
+.hero-image{
+    width:100%;
+}
+.whole-opener, .whole-machiato,.whole-avocado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em;
+}
+
+
+.opener, .machiato-img, .avocado-img{
+    width: 50%;
+    padding-left: 1em;
+}
+
+.coffee-opener{
+    float: left;
+    padding:4em 8em 4em 8em;
+}
+
+
+
+.body{
+    font-size: 2.5rem;
+}
+.opener-text h2{
+    margin-bottom: 2rem;
+}
+.opener-p1{
+    margin-bottom: 3rem;
+    padding-right: 6em;
+}
+.opener-p2{
+    padding-right: 6em;
+}
+.specials{
+    color: white;
+    padding: .5em 0 .5em 0;
+    clear: both;
+    width: 100%;
+    background-color: #766555;
+    text-align: center;
+    font-size: 3em;
+}
+span{
+    color: #FFC9C9;
+}
+.visit-header,.address,.sched,.number{
+    display:flex;
+    align-items: center;
+    gap:1em;
+    margin: 0 auto;
+}
+.address{
+    padding-top: 1em;
+}
+.visit-header img{
+    max-width:100px;
+    height: auto;
+}
+
+.bodyText{
+    font-size: 2em;
+}
+
+/*FOOTER*/
+.foot{
+    background-color: #766555;
+}
+.foot a{
+    font-size: 1.3em;
+
+}
+.foot h2{
+    padding-top: 1em;
+    font-size: 3em;
+    padding-left: 2em;
+}
+
+.terms{
+    display: flex;
+}
+.foot{
+    background-color: #766555;
+    color:white;
+}
+
+.foot a:hover{
+    color:#FFC9C9;
+}
+
+.socials{
+   display: flex;
+   flex-direction: row;
+   gap: 1.5em;
+   float: right;
+   margin-right: 10em; 
+   margin-top: 3em;
+}
+
+.topFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding:1em 4em 2em 4em;
+}
+.terms{
+    display:flex;
+    padding-right: 6em;
+    gap: 2em;
+}
+.terms a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Oswald';
+}
+.emailContainer{
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+}
+.emailContainer a{
+    color:white;
+    text-decoration: none;
+    padding-left: .5em;
+    font-family: 'Oswald';
+}
+
+
+
