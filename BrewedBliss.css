@@ -128,6 +128,7 @@ nav ul li:not(:last-child) {
     background-color: #FFC9C9;
 }
 #order:hover{
+    color: #FFC9C9;
     background-color: white;
 }
 .visit h2{
@@ -170,7 +171,7 @@ nav ul li:not(:last-child) {
 .opener-p2{
     padding-right: 6em;
 }
-.specials{
+.rowSplitter{
     color: white;
     padding: .5em 0 .5em 0;
     clear: both;
@@ -179,6 +180,7 @@ nav ul li:not(:last-child) {
     text-align: center;
     font-size: 3em;
 }
+
 span{
     color: #FFC9C9;
 }
@@ -231,7 +233,7 @@ span{
    flex-direction: row;
    gap: 1.5em;
    float: right;
-   margin-right: 10em; 
+   margin-right: 4em; 
    margin-top: 3em;
 }
 
@@ -249,7 +251,6 @@ span{
 }
 .terms{
     display:flex;
-    padding-right: 6em;
     gap: 2em;
 }
 .terms a{
@@ -271,3 +272,168 @@ span{
 
 
 
+/*Contact us*/
+.smallHeadings{
+    background-color: #48433F;
+    color: white;
+    font-size: 2.2em;
+    padding: 1em 0 2em 2em;
+}
+.smallHeadings p{
+ padding-top: 1em; 
+}
+
+.smallContent-container{
+    background-color: #F7F7F7;
+    font-size: 2.3em;
+    padding:1em 2em 0 2em;
+}
+.smallContent-container p{
+    padding: 1em 2em 1em 0;
+}
+.smallContent-container h2{
+    border-bottom: #48433F .1em solid;
+}
+.smallContent{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.smallContent img{
+    height: 120px;
+}
+.owner img, .barista img{
+    height: 300px;
+}
+
+.owner,.barista{
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-size: 2em;
+}
+.phone img,.email img, .location img{
+    max-width: 50px;
+    height: auto;
+    flex: 1;
+}
+.location{
+    font-size: 2em;
+    justify-content: center;
+    padding: 1em 0 1em 0;
+}
+.iframe-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.map{
+    border:3px #48433F solid;
+    width:700px; 
+    height:550px; 
+}
+#time{
+    font-size: 2.2em;
+    justify-content: center;
+}
+#time h2{
+    border-bottom: #48433F .1em solid;
+}
+.schedule-table{
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Oswald';
+    border-collapse: collapse;
+    border: black 3px solid;
+    font-size: 2em;
+    margin:2em auto;
+}
+.schedule-table td{
+    border: black 1px solid;
+    padding: .1em 2em .1em 2em;
+}
+th{
+    background-color: #766555;
+    color: white;
+}
+.brown-row{
+    background-color: #E4D3C1;
+}
+.menu{
+    display: flex;
+    font-size: 2.5em;
+    font-family: 'Oswald';
+    gap: 20px;
+    padding: 2em 4em 2em 4em;
+    flex-direction: column;
+}
+.menu table caption{
+    text-align: left;
+    font-weight: 700;
+}
+.menu table td{
+    padding-right: 5em;
+}
+.menu-row{
+    display: flex;
+    justify-content: space-between;
+}
+#lunch{
+    padding-right: 2em;
+}
+
+hr{
+    height: 6px;
+    border:none;
+    background-color: #48433F;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback input, .feedback button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ccc; 
+}
+.feedback input{
+    width: 50em;
+    height: 3em;   
+    line-height: 3em;
+    margin-bottom: 2em;
+}
+label{
+    padding-bottom: .3em;
+    text-align: left;
+}
+textarea{
+    margin-top: 2em;
+    width: 50em;
+    resize: none;
+}
+button,label,.form-container p{
+    font-size: 1.7em;
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+.form-container p{
+    text-align: center;
+    padding-top: 1.5em;
+}
+button{
+    margin:2em 0 2em 0;
+    padding: .3em 2em;
+}
+button:hover{
+    color:white;
+}
+button:active{
+    color: white;
+    transform: scale(92%);
+}
+.form-container button,.form-container input,.form-container textarea{
+    border:3px solid black;
+    background-color: #D1C5B7;
+}
